@@ -10,13 +10,10 @@ var assert = require('chai').assert
 
 var LATEX, PDFLATEX
 
-if( true ) {
-  LATEX = __dirname+'/stubs/latex.js'
-  PDFLATEX = __dirname+'/stubs/pdflatex.js'
-} else {
-  LATEX = 'latex'
-  PDFLATEX = 'pdflatex'
-}
+LATEX = process.env.LATEX || __dirname + '/stubs/latex.js'
+PDFLATEX = process.env.PDFLATEX || __dirname + '/stubs/pdflatex.js'
+console.log('using latex = ',LATEX)
+console.log('using pdflatex = ',PDFLATEX)
 
 function transformFile(converter, file, cb) {
   converter.on('data',function(file) {

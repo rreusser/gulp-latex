@@ -40,6 +40,17 @@ Creates a gulp-compatible object transform stream that inputs and outputs vinyl 
   - `format`: either 'pdf' or 'dvi. By default outputs a pdf.
   - `command`: the latex command invoked. Default: `latex`
 
+## Testing
+
+Tests are performed using latex/pdflatex stubs in test/stubs. To use your default latex installation, set:
+
+```bash
+$ export LATEX=latex
+$ export PDFLATEX=pdflatex
+```
+
+or whichever commands with which you prefer to invoke latex/pdflatex.
+
 ## Credits
 
 (c) 2015 Ricky Reusser. MIT License
