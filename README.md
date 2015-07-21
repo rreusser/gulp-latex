@@ -1,8 +1,6 @@
-# gulp-latex [![npm version](https://badge.fury.io/js/gulp-latex.svg)](http://badge.fury.io/js/gulp-latex) [![Dependency Status](https://david-dm.org/rreusser/gulp-latex.svg)](https://david-dm.org/rreusser/gulp-latex)
+# gulp-latex [![Build Status](https://travis-ci.org/rreusser/gulp-latex.svg)](https://travis-ci.org/rreusser/gulp-latex) [![npm version](https://badge.fury.io/js/gulp-latex.svg)](http://badge.fury.io/js/gulp-latex) [![Dependency Status](https://david-dm.org/rreusser/gulp-latex.svg)](https://david-dm.org/rreusser/gulp-latex)
 
-<!---
-[![Build Status](https://travis-ci.org/rreusser/gulp-latex.svg)](https://travis-ci.org/rreusser/gulp-latex)
--->
+
 
 
 A gulp plugin for rendering LaTeX files
