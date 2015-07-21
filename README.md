@@ -8,7 +8,7 @@ A gulp plugin for rendering LaTeX files
 
 ## Introduction
 
-This gulp plugin receives .tex files and renders them to .pdf or .dvi files. There's not much more to it than that. The interface for the [latex](https://github.com/mikolalysenko/node-latex) node module is already pretty simple, so this is just a little glue to do the messy footwork and make it gulp-compatible. All options are just passed directly to that module and errors are emitted in gulp-fashion.
+This gulp plugin receives .tex files and renders them to .pdf or .dvi files. There's not much more to it than that. It's no more than a wrapper around the [latex](https://github.com/mikolalysenko/node-latex) module, which itself is little more than a wrapper around latex itself.. All options are just passed directly to the latex module.
 
 Sample usage:
 
