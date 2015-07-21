@@ -1,6 +1,6 @@
 {
   "name": "gulp-latex",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "A gulp plugin for rendering LaTeX files",
   "main": "lib/index.js",
   "scripts": {
